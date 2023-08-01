@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ welcome_msg }}</title>
+</head>
+<body>
+    {% if g.user %}
+        <p>{{ welcome_msg|format(username=g.user["name"]) }}</p>
+    {% else %}
+        <p>{{ welcome_msg }}</p>
+    {% endif %}
+</body>
+</html>
+

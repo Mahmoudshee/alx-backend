@@ -1,0 +1,9 @@
+msgid "home_title"
+msgstr "Welcome to Holberton"
+
+msgid "home_header"
+msgstr "Hello world!"
+
+msgid "current_time_is"
+msgstr "The current time is %(current_time)s."
+
